@@ -16,7 +16,7 @@ public class RiskRunner {
 		game.setMaxNumberOfTurns(10000);
 		
 		Player player1 = new BetterPlacerPlayer("Mike");
-		Player player2 = new BetterPlacerPlayer("George");
+		Player player2 = new HumanPlayer("George");
 		Player player3 = new Player("Mary");
 		Player player4 = new Player("Suzzie");
 		
